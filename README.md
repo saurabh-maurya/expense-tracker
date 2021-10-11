@@ -43,3 +43,21 @@ MONGO_URI=mongodb://<HOST_NAME>:<PORT>/<DATABASE_NAME>
 
 ### Frontend Screenshots
 ![EXPENSE_TRACKER](expense-tracker.PNG)
+
+<br>
+<hr>
+<br>
+
+## Production - Steps
+- see ***production branch*** <br>
+or
+- follow steps -
+    1. In client folder, run command ```npm run build```
+    2. It will create a *build dir*, that will caontain all **static files**
+    3. copy *build dir* from *client dir* and paste it in *server dir*
+    4. set NODE_ENV as production in  *\server\config*
+    5. run command *npm start* to start server in production mode
+
+<hr>
+
+***Have a Good Day!***

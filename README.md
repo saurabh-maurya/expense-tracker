@@ -37,8 +37,9 @@ MONGO_URI=mongodb://<HOST_NAME>:<PORT>/<DATABASE_NAME>
 *I have also attached POSTMAN collection for rest endpoint reference*
 
 ### Client - steps to start client side
-1. run command ** npm install** to install required modules
-2. to start server use command **npm start**
+1. set your **proxy** in *client/package.json* based on where backend is hosted
+2. run command ** npm install** to install required modules
+3. to start server use command **npm start**
 
 ### Frontend Screenshots
 ![EXPENSE_TRACKER](expense-tracker.PNG)

@@ -17,7 +17,7 @@ The application is used to track and store expenses. This application build usin
 1. MongoDB
 2. Node JS
 3. NPM
-3. React JS
+4. React JS
 
 ### Database
 1. Collections - 
